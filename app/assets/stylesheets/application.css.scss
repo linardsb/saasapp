@@ -18,14 +18,27 @@
 @import 'bootstrap';
 
 h1, h2, h3 {
-    font-family: 'Jadi', sans-serif;
+    font-family: 'Jaldi', sans-serif;
 }
-
-body, .navbar{
+.navbar, .home-callout, h1{
+    color:#FFFFFF;
     //gradiant provided by https://uigradients.com
-    background: #DAE2F8;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #D6A4A4, #DAE2F8);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #D6A4A4, #DAE2F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    //background: #DAE2F8;  /* fallback for old browsers */
+    //background: -webkit-linear-gradient(to right, #D6A4A4, #DAE2F8);  /* Chrome 10-25, Safari 5.1-6 */
+    //background: linear-gradient(to right, #D6A4A4, #DAE2F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #1A2980;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Jaldi', serif;
+}
+.home-callout {
+    margin-top: -20px;
+    padding: 1em 0em 3em 0em;
+}
+.home-callout h1 {
+    background: none;
+    font-family: 'Josefin Slab', serif;
+    font-size: 50px;
 }
 
 .navbar {
