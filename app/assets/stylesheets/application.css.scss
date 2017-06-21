@@ -16,6 +16,8 @@
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
 
 h1, h2, h3 {
     font-family: 'Jaldi', sans-serif;
@@ -42,7 +44,7 @@ h1, h2, h3 {
 }
 .navbar {
     border: none;
-}gti 
+}
 
 .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a  {
     color:#FFFFFF;

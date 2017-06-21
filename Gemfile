@@ -30,7 +30,7 @@ gem 'jbuilder', '2.5.0'
 
 gem 'bootstrap-sass', '3.3.7'
 
-#Font awesonme sass gem
+#Use Font Awesome sass gem for addign icons
 gem 'font-awesome-sass', '4.6.2'
 
 group :development, :test do
