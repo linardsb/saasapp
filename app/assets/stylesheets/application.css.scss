@@ -14,10 +14,10 @@
  *= require_self
  */
 
-@import 'bootstrap-sprockets';
-@import 'bootstrap';
-@import 'font-awesome-sprockets';
-@import 'font-awesome';
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
 h1, h2, h3 {
     font-family: 'Jaldi', sans-serif;
@@ -52,4 +52,15 @@ h1, h2, h3 {
       color: #FFFFFF;
       opacity: 0.80;
     }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #7ce2e1;
+  }
 }
