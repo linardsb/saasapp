@@ -64,3 +64,17 @@ h1, h2, h3 {
     background-color: #7ce2e1;
   }
 }
+
+.alert-warning {
+    background-color: rgba(246, 60, 0, 0.07);
+    border-color: rgba(255, 163, 3, 0.29);
+    color: rgba(234, 7, 66, 0.7);
+    text-align: center;
+}
+
+.alert-success {
+    background-color: rgba(0, 246, 22, 0.13);
+    border-color: rgba(0, 255, 52, 0.33);
+    color: rgba(4, 83, 19, 0.7);
+    text-align: center;
+}
