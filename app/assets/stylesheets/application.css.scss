@@ -80,7 +80,22 @@ h1, h2, h3 {
 }
 
 .btn-outline-success {
-  background-color: rgba(0, 246, 22, 0.13);
-  border-color: rgba(0, 255, 52, 0.33);
-  color: rgba(4, 83, 19, 0.7);
+  background-color: rgba(0, 246, 22, 0);
+  border-color: rgba(42, 255, 0, 0.66);
+  color: rgba(45, 250, 0, 0.73);
+  &:hover, &:focus {
+    background-color: rgba(0, 246, 22, 0.11);
+    color: rgba(28, 108, 10, 0.6);
+  }
+}
+
+.well {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: rgba(0, 50, 248, 0.04);
+  border: 1px solid rgba(2, 31, 255, 0.12);
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 }
