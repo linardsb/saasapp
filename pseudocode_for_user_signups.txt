@@ -1,0 +1,5 @@
+Memberships
+- Users should see link for Basic plan on Homepage
+- Users should see link for Pro plan on Homepage
+- Basic plan link should link to regular Devise sign up 
+- Pro plan should link to a custom sign up 
