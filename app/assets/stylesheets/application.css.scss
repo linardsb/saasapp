@@ -113,10 +113,6 @@ h1, h2, h3 {
   }
 }
 
-.alert-notice {
-  display: none;
-}
-
 .btn-block {
     display: block;
     width: 55%;
@@ -160,4 +156,15 @@ h1, h2, h3 {
     color: #0386ac;
     border: 1px solid #16c8fb;
   }
+}
+
+.flash-container {
+  position: absolute;
+  width: 100%;
+}
+.alert-notice, .alert-alert {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.5);
+  margin-top: -14px;
 }
