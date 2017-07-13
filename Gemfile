@@ -41,6 +41,7 @@ gem 'devise', '4.2.0'
 
 # Use stripe for payment
 gem 'stripe', '1.48.0'
+gem 'stripe_event'
 
 # Use Figaro for ENV variables
 gem 'figaro', '1.1.1'
